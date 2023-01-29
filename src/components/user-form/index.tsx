@@ -1,3 +1,6 @@
 export default function UserForm() {
-    return <div> </div>
+    return <div>
+        <form>
+            First name: <input type='text' />
+        </form> </div>
 }

@@ -7,8 +7,10 @@ import Previewer from './components/previewer';
 function App() {
   return (
     <div className="App">
-      <UserForm />
-      <Previewer />
+      <div className="resume-editor">
+        <UserForm />
+        <Previewer />
+      </div>
     </div>
   );
 }
